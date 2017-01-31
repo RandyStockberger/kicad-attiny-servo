@@ -1,0 +1,13 @@
+Corrections to SmallServoRelay V2.0
+- Move MOSFET 10K pulldown resistors on Relay MOSFET Q1 and Q2
+- Enlarge solder pads for diodes D1, D2 and D3
+- Label pads, MISO, MOSI, V3.5, GND, etc on ISP header
+- Change MOSFET gate pulldown resistors from 120 ohm to 10K ohm
+- Change MOSFET gate current limit resistor from 120 ohm to ~60 ohm
+- Replace drive circuit for SV1SIG and SV2SIG with non-inverting circuit (aka level shifter)
+- Add header with V5, V3.3, and GND pins
+- Correct footprint for relay RLY1/RLY2
+- Add labels for P3/P4 LEDs/Button/GND
+- Add labels to servo connectors P7/P8 V5/GND/SIG
+- Turn frog headers P5/P6 180 degrees
+- Turn power header P1 180 degrees
